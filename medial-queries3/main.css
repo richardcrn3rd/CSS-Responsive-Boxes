@@ -1,3 +1,73 @@
 body {
-  background: peachpuff;
+  margin: 0;
+  padding: 0;
+  height: 100svh;
+
+}
+
+.container {
+  margin: 10px;
+
+}
+
+.block {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.card-01 {
+  background: #03D29F;
+  position: relative;
+  flex: 1;
+  max-width: 1050px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card-02 {
+  background: #4803d2;
+  position: relative;
+  flex: 1;
+  max-width: 250px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card-03 {
+  background: #d20318;
+  position: relative;
+  flex: 1;
+  max-width: 250px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.card-04 {
+  background: #d20318;
+  flex: 1;
+  max-width: 250px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+ }
+
+@media (max-width: 600px) {
+  .card-04 {
+    max-width: 600px;
+    flex: 100%;
+    height: 150px;
+  }
 }
