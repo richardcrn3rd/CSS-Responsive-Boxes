@@ -1,60 +1,69 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  background: red;
+  margin: 0;
   padding: 0;
+  height: 100svh;
 
 }
 
-.flex-container {
+.container {
+  margin: 20px;
+
+}
+
+.block {
+  width: 100%;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  font-size: 20px;
+}
+
+.card-01 {
+  background: #03D29F;
+  position: relative;
+  flex: 1;
+  max-width: 1000px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   text-align: center;
-
 }
 
-.flex-item-left {
-  background-color: lightgray;
-  padding: 10px;
-  height: 50px;
-  flex: 100%;
-  border: 1px solid black;
-  margin: 0px;
-  padding: 10px;
-
+.card-02 {
+  background: #4803d2;
+  position: relative;
+  flex: 1;
+  max-width: 780px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
-.flex-item-right {
-  background-color: dodgerblue;
-  padding: 10px;
-  flex: 20%;
-  border: 1px solid black;
-  padding: 10px;
-  height: 100px;
-
+.card-03 {
+  background: #acd203;
+  position: relative;
+  flex: 1;
+  max-width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(82, 20, 183, 0.2);
+  text-align: center;
 }
 
-.flex-item-center {
-  background-color: green;
-  padding: 10px;
-  height: 100px;
-  flex: 80%;
-  border: 1px solid black;
-  padding: 10px;
-}
+@media (max-width: 600px) {
 
-@media (max-width: 650px) {
-
-  .flex-item-right,
-  .flex-item-left {
+  .card-02,
+  .card-03 {
     flex: 100%;
   }
 }
-  @media (max-width: 650px) {
-    .flex-item-right {
-      height: 50px;
-    }
+
+@media (max-width: 600px) {
+  .card-03 {
+    flex: 100%;
+    max-width: 100%;
   }
+}
