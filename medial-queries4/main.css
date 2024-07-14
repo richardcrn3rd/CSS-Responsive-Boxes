@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100svh;
+
+}
+
+.container {
+  margin: 20px;
+
+}
+
+.block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-01 {
+  background: #03D29F;
+  position: relative;
+  flex: 1;
+  max-width: 1000px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card-02 {
+  background: #4803d2;
+  position: relative;
+  flex: 1;
+  max-width: 170px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card-03 {
+  background: #4803d2;
+  position: relative;
+  flex: 1;
+  max-width: 600px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card-04 {
+  background: #4803d2;
+  position: relative;
+  flex: 1;
+  max-width: 170px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card-05 {
+  background: #d2030a;
+  position: relative;
+  flex: 1;
+  max-width: 1000px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+
+  .card-02,
+  .card-05 {
+    flex: 100%;
+    max-width: 600px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-04 {
+    display: none;
+  }
+}
