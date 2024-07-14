@@ -1,3 +1,189 @@
 body {
-  background: papayawhip;
+  margin: 0;
+  padding: 0;
+  height: 100svh;
+
 }
+
+.container {
+  margin: 10px;
+
+}
+
+.block {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.card-01 {
+  background: #03D29F;
+  position: relative;
+  flex: 1;
+  max-width: 1000px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card-02 {
+  background: #4803d2;
+  position: relative;
+  flex: 1;
+  max-width: 750px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card-03, .card-04, .card-05, .card-06 {
+  background: #d20318;
+  position: relative;
+  flex: 1;
+  max-width: 235px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.card-06 {
+  background: #7cd203;
+}
+
+@media (max-width: 600px) {
+  .card-06 {
+    max-width: 600px;
+    flex: 100%;
+  }
+  @media (max-width: 600px) {
+    .card-02 {
+    height: 200px;
+
+    }
+}
+
+
+
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  background: tan;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 10vh;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding: 0px;
+}
+
+.container {
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0px;
+  padding: 10px;
+  border: .5vh solid black;
+  gap: 1vh;
+  flex-wrap: wrap;
+  text-align: center;
+
+
+}
+
+.block1 {
+  background-color: gray;
+  border: 2px solid pink;
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+
+}
+
+.block2 {
+  background-color: gray;
+  border: 2px solid pink;
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+}
+
+.block3 {
+  background-color: gray;
+  border: 2px solid pink;
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  /* flex-direction: row; */
+  gap: 0.5vh;
+  flex: 1;
+  /* flex-wrap: wrap; */
+}
+
+.block4{
+  background-color: gray;
+  border: 2px solid pink;
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+}
+.boxa {
+  width: 100%;
+  justify-content: center;
+  background-color: gray;
+  border: 2px solid pink;
+  height: 100%;
+  border: 2px solid pink;
+  display: flex;
+}
+
+.boxb {
+  width: 100%;
+  justify-content: center;
+  background-color: gray;
+  border: 2px solid pink;
+  height: 100%;
+  border: 2px solid pink;
+}
+
+.boxc,
+.boxd,
+.boxe {
+  border: 2px solid pink;
+  width: 100%
+  }
+
+.boxf {
+  border: 2px solid pink;
+  width: 100%;
+  max-height: 100px;
+  flex-wrap: wrap;
+
+}
+
+@media (max-width: 600px) { */
+  .boxb {
+    height: 150px;
+  }
+}
+ @media (min-width: 600px) {
+  .block3 {
+  width: 80%;
+  height: fit-content;
+}
+.block2 {
+  width: 80%;
+}
+.blockf {
+  align-self:center;
+
+}
+} */
